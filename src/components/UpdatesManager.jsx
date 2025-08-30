@@ -3,7 +3,7 @@ import axios from "axios";
 import { FaBullhorn, FaCalendarAlt, FaTrophy, FaInfoCircle, FaTrash, FaPlus } from "react-icons/fa";
 // import "./adminss.css";
 
-const API_URL = "https://lovely-renewal-production.up.railway.app/api/updates";
+const API_URL = "https://worknoxback-production.up.railway.app/api/updates";
 
 const UpdatesManager = () => {
   const [formData, setFormData] = useState({ title: "", content: "", type: "general" });

@@ -3,7 +3,7 @@ import axios from "axios";
 import { FaUsers, FaEnvelope, FaPhone, FaSearch, FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 // import "./adminss.css";
 
-const API_URL = "https://lovely-renewal-production.up.railway.app/api/admissions";
+const API_URL = "https://worknoxback-production.up.railway.app/api/admissions";
 
 const AdmissionsTable = () => {
   const [students, setStudents] = useState([]);

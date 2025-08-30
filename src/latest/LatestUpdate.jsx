@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./LatestNews.css";
 
-const API_URL = "https://lovely-renewal-production.up.railway.app/api/updates";
+const API_URL = "https://worknoxback-production.up.railway.app/api/updates";
 
 const COLORS = {
   general: "#3B82F6",

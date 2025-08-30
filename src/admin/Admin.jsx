@@ -4,7 +4,7 @@
 // import { useNavigate } from "react-router-dom";
 // import "./adminauth.css"; // ✅ Import external CSS
 
-// const API_URL = "https://lovely-renewal-production.up.railway.app/api/admin";
+// const API_URL = "https://worknoxback-production.up.railway.app/api/admin";
 
 // const Admin = () => {
 //   const [isLogin, setIsLogin] = useState(true);
@@ -120,7 +120,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./adminauth.css";
 
-const API_URL = "https://lovely-renewal-production.up.railway.app/api/admin";
+const API_URL = "https://worknoxback-production.up.railway.app/api/admin";
 
 const Admin = () => {
   const [isLogin, setIsLogin] = useState(true);

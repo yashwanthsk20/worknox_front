@@ -26,7 +26,7 @@ import { FiTrendingUp } from "react-icons/fi";
 
 // import "./adminss.css";
 
-const API_URL = "https://lovely-renewal-production.up.railway.app/api/admissions";
+const API_URL = "https://worknoxback-production.up.railway.app/api/admissions";
 const COLORS = ["#3B82F6", "#10B981", "#F59E0B", "#EF4444"];
 
 const AdminDashboard = () => {
