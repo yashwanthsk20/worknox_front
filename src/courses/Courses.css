@@ -1,0 +1,27 @@
+.courses-section {
+    background: #f9f9f9;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .course-card {
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .course-card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  }
+  
