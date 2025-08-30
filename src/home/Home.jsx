@@ -1,7 +1,5 @@
-
-
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 import About from '../about/About';
 import Courses from '../courses/Courses';
 import AnnouncementsTicker from '../announcement/AnnouncementTicker';
@@ -13,8 +11,8 @@ const Home = () => {
         <h1>Welcome to Our School</h1>
         <p>Excellence in Education Since 1950</p>
         <div className="hero-buttons">
-          <a href="/admission" className="btn btn-primary">Apply for Admission</a>
-          <a href="/latest" className="btn btn-secondary">Latest Updates</a>
+          <Link to="/admission" className="btn btn-primary">Apply for Admission</Link>
+          <Link to="/latest" className="btn btn-secondary">Latest Updates</Link>
         </div>
       </div>
       <AnnouncementsTicker/>
@@ -38,4 +36,4 @@ const Home = () => {
   );
 };
 
-export default Home;    
+export default Home;
